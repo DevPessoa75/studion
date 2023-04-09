@@ -4,12 +4,16 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Studion</title>
   </head>
   <body>
-    <nav>
-      <h1>Studi<span>on</span><span>Eventos</span></h1>
-      <ul>
+    <nav class="navbar">
+      <h1 class="logo-studion">
+        Studi<span class="copy--primary">on</span>
+        <span class="logo-studion__subtitle">Eventos</span>
+      </h1>
+      <ul class="navbar__links">
         <li>
           <a href="#empresa" target="_blank">Empresa</a>
         </li>
@@ -31,9 +35,19 @@
     <header>
       <div id="slider">
         <div class="slide">
-          <h6><span>PRÓXIMO EVENTO</span> - DIA 25 DE SETEMBRO ÀS 19H</h6>
-          <h2><span>CREATIVE</span> MINDS</h2>
-          <button>saiba mais</button>
+          <img
+            class="slide__bg-image"
+            src="./images/banner.jpg"
+            alt="Studion Banner"
+          />
+          <div class="slide__copy">
+            <h6>
+              <span class="copy--primary">Próximo evento</span> - Dia 25 de
+              setembro às 19h
+            </h6>
+            <h2><span class="copy--primary">CREATIVE</span> MINDS</h2>
+            <button class="btn btn--slide">saiba mais</button>
+          </div>
         </div>
       </div>
     </header>
@@ -97,7 +111,7 @@
             rel="noopener"
             aria-label="Visit our Facebook Page (opens in a new tab)"
             --
-          >            
+          >
             <i class="fa fa-facebook" aria-hidden="true"></i>Facebook</a
           >
         </li>
@@ -113,8 +127,8 @@
             rel="noopener"
             aria-label="Visit our Youtube Page (opens in a new tab)"
           >
-            <i class="fa fa-youtube" aria-hidden="true"></i
-          >Youtube</a>
+            <i class="fa fa-youtube" aria-hidden="true"></i>Youtube</a
+          >
         </li>
         <li>
           <a
@@ -123,18 +137,9 @@
             rel="noopener"
             aria-label="Visit our Instagram Page (opens in a new tab)"
           >
-            <i class="fa fa-instagram" aria-hidden="true"></i
-          >Instagram</a>
+            <i class="fa fa-instagram" aria-hidden="true"></i>Instagram</a
+          >
         </li>
-        <!-- <li>
-          <a href="https://facebook.com" target="_blank">Facebook</a>
-        </li>
-        <li>
-          <a href="https://twitter.com" target="_blank">Twitter</a>
-        </li>
-        <li>
-          <a href="https://youtube.com" target="_blank">youtube</a>
-        </li> -->
       </ul>
       <hr />
       <p>
